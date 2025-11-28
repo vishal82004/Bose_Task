@@ -2,7 +2,7 @@ CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     full_name VARCHAR NOT NULL,
     email VARCHAR NOT NULL UNIQUE,
-    aadhaar_application_id VARCHAR NOT NULL UNIQUE,
+    aadhaar_application_id BIGINT NOT NULL UNIQUE,
     phone_number BIGINT NOT NULL,
     address TEXT,
     dob DATE NOT NULL,
