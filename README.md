@@ -76,4 +76,4 @@ aadhaar-service/
 -   **Validation**: Pydantic models ensure data integrity.
 -   **Database**: PostgreSQL with SQLAlchemy ORM.
 -   **Pagination & Sorting**: Efficient data retrieval.
-# Bose_Task
+
